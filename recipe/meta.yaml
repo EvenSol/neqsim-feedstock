@@ -1,5 +1,5 @@
 {% set name = "neqsim" %}
-{% set version = "3.9.1" %}
+{% set version = "3.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 863013a17592c0b24a5d71775573c57843505c2ec775cca96f71b4d998543674
+  sha256: 4d04eb706e73af5fb29302d727993e9675ea5f8d9ca8a2d6dd6809f8f61b60e0
 
 build:
   number: 0
