@@ -10,7 +10,7 @@ source:
   sha256: 77d4826e640e7e9bc4c385ac9c112678716bd461a6004f35c9b368a41daec412
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -45,7 +45,6 @@ about:
     the use of NeqSim in Python.
   license: Apache-2.0
   license_family: Apache
-  license_file: LICENSE
   doc_url: https://github.com/equinor/neqsim-python/wiki
   dev_url: https://github.com/Equinor/neqsim-python
 
